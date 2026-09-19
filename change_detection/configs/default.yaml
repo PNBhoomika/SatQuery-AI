@@ -1,0 +1,35 @@
+# Default System Configuration for Change Detection Module (Member 3)
+model:
+  name: "SatQuery-Siamese-ConvNeXt"
+  backbone: "convnext_tiny"
+  in_channels: 3
+  num_classes_change: 1
+  num_classes_morphology: 5
+  num_classes_type: 5
+  pretrained: true
+  device: "auto"
+
+suppression:
+  enable_qa_masking: true
+  enable_registration_check: true
+  enable_seasonal_filter: true
+  enable_sar_fusion: true
+  registration_max_offset_px: 1.5
+  view_angle_max_delta_deg: 15.0
+  seasonal_sigma_threshold: 2.0
+  sar_agreement_threshold: 0.25
+  confidence_weights:
+    w_model: 0.40
+    w_qa: 0.20
+    w_sar: 0.15
+    w_seasonal: 0.15
+    w_registration: 0.10
+
+earliest_date:
+  min_confidence: 0.70
+  min_qa_coverage: 0.80
+
+feedback:
+  retrain_trigger_batch_size: 20
+  learning_rate: 0.00005
+  fine_tune_epochs: 5

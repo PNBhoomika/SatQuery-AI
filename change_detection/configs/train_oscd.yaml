@@ -1,0 +1,17 @@
+# OSCD Sentinel-2 Multi-Band Change Detection Training Config
+dataset: "oscd"
+data_root: "data/raw/oscd"
+bands: ["B04", "B03", "B02", "B08"]
+target_gsd: 10.0
+backbone: "prithvi_100m"
+freeze_backbone: true
+epochs: 50
+batch_size: 8
+learning_rate: 0.0001
+loss_weights:
+  bce: 1.2
+  dice: 1.0
+  morphology: 0.4
+  type: 0.4
+held_out_ratio: 0.20
+output_dir: "change_detection/weights/oscd_run"

@@ -1,0 +1,17 @@
+{
+  "id": "LC08_L2SP_144052_20230710",
+  "type": "Feature",
+  "properties": {
+    "datetime": "2023-07-10T05:12:00Z",
+    "platform": "landsat-8",
+    "constellation": "landsat",
+    "instruments": ["oli", "tirs"],
+    "view:sun_elevation": 55.0,
+    "proj:epsg": 32644
+  },
+  "assets": {
+    "red": {
+      "href": "red.tif"
+    }
+  }
+}

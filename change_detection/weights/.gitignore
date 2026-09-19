@@ -1,0 +1,9 @@
+# Ignore large binary weight checkpoints in git; keep manifest
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.safetensors
+!MANIFEST.sha256
+!.gitignore

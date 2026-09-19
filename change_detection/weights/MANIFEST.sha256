@@ -1,0 +1,9 @@
+# SatQuery-AI Model Weights Checksum Manifest (SHA-256)
+# Format: <sha256_hash>  <relative_filepath>
+# Generated upon model training / staging. Verified at service startup.
+d4e223eb57e8e94a97ce1e1b95accbf379afbca18bc176da44cacd9a1278f0ed  change_detection/weights/levir_run/best.pt
+d4e223eb57e8e94a97ce1e1b95accbf379afbca18bc176da44cacd9a1278f0ed  change_detection/weights/levir_run/best.pt
+d4e223eb57e8e94a97ce1e1b95accbf379afbca18bc176da44cacd9a1278f0ed  change_detection/weights/levir_run/best.pt
+d4e223eb57e8e94a97ce1e1b95accbf379afbca18bc176da44cacd9a1278f0ed  change_detection/weights/levir_run/best.pt
+e8c46e842096ad6bfbddf6710a341d2f198341a75a9b567bd3b19e1af2e4a447  change_detection/weights/levir_run/best.pt
+21d43889e67f505c59574b993b21bd05441e4663c92a951f86381a6d6b61e739  change_detection/weights/levir_run/best.pt
