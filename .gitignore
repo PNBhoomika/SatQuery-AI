@@ -32,3 +32,5 @@ Thumbs.db
 
 # Auto-generated reports
 reports/*.md
+# Environment variables
+.env
