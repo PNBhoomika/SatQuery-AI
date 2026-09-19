@@ -32,3 +32,8 @@ Thumbs.db
 
 # Auto-generated reports
 reports/*.md
+checkpoints/
+*.pt
+*.pth
+__pycache__/
+.venv/
