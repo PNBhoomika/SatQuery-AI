@@ -4,3 +4,4 @@ open-clip-torch
 faiss-cpu
 Pillow
 numpy
+hdbscan
