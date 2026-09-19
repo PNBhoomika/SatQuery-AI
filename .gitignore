@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Weights (large binaries — use MANIFEST for provenance)
+change_detection/weights/prithvi/Prithvi_100M.pt
+change_detection/weights/prithvi/.cache/
+change_detection/weights/**/*.pt
+change_detection/weights/**/*.pth
+change_detection/weights/**/*.ckpt
+!change_detection/weights/**/MANIFEST.sha256
+
+# Datasets
+data/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Auto-generated reports
+reports/*.md
