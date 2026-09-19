@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ALT-2026-024",
+    "type": "New Construction / Urban Expansion",
+    "latitude": 13.3408,
+    "longitude": 77.1009,
+    "confidence": 0.92,
+    "detectedAt": "2026-08-14T06:22:00Z",
+    "status": "PENDING REVIEW",
+    "sensor": "Sentinel-2 MSI",
+    "affectedArea": "18.4 ha",
+    "locationName": "Tumakuru Industrial Hub, Karnataka",
+    "analysisId": "analysis_tumakuru_01",
+    "summary": "18.4 hectares of new industrial superstructure and solar array detected with high spectral certainty."
+  },
+  {
+    "id": "ALT-2026-025",
+    "type": "Flood / Water Inundation",
+    "latitude": 16.2,
+    "longitude": 80.5,
+    "confidence": 0.95,
+    "detectedAt": "2026-08-02T10:14:00Z",
+    "status": "CONFIRMED",
+    "sensor": "Sentinel-1 SAR",
+    "affectedArea": "42.1 ha",
+    "locationName": "Krishna River Delta Lowlands, Andhra Pradesh",
+    "analysisId": "analysis_krishna_02",
+    "summary": "Verified river overflowing embankment inundating 42.1 hectares of paddy cropland."
+  },
+  {
+    "id": "ALT-2026-026",
+    "type": "Deforestation / Land Clearing",
+    "latitude": 12.9141,
+    "longitude": 75.5,
+    "confidence": 0.88,
+    "detectedAt": "2026-07-21T04:45:00Z",
+    "status": "PENDING REVIEW",
+    "sensor": "Landsat-9",
+    "affectedArea": "7.8 ha",
+    "locationName": "Western Ghats Ecological Buffer, Karnataka",
+    "analysisId": "analysis_ghats_03",
+    "summary": "NDVI drop of 0.38 indicates canopy removal across 7.8 hectares."
+  },
+  {
+    "id": "ALT-2026-027",
+    "type": "Seasonal Agricultural Variation",
+    "latitude": 13.12,
+    "longitude": 76.98,
+    "confidence": 0.68,
+    "detectedAt": "2026-06-15T11:00:00Z",
+    "status": "REJECTED",
+    "sensor": "Sentinel-2 MSI",
+    "affectedArea": "5.2 ha",
+    "locationName": "Kunigal Agrarian Belt, Karnataka",
+    "analysisId": "analysis_kunigal_04",
+    "summary": "Rejected by senior analyst: normal pre-sowing plowing cycle, not unauthorized land clearance."
+  }
+]
