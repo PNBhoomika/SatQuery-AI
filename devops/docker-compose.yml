@@ -1,0 +1,59 @@
+﻿services:
+  module-a:
+    build: ./modules/module-a
+    ports: ["8001:8000"]
+    volumes: ["./weights/module-a:/weights:ro"]
+    env_file: .env
+    networks: [backbone]
+
+  module-b:
+    build: ./modules/module-b
+    ports: ["8002:8000"]
+    volumes: ["./weights/module-b:/weights:ro"]
+    env_file: .env
+    networks: [backbone]
+
+  module-c:
+    build: ./modules/module-c
+    ports: ["8003:8000"]
+    volumes: ["./weights/module-c:/weights:ro"]
+    env_file: .env
+    networks: [backbone]
+
+  module-d:
+    build: ./modules/module-d
+    ports: ["8004:8000"]
+    volumes: ["./weights/module-d:/weights:ro"]
+    env_file: .env
+    networks: [backbone]
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  module-e:
+    build: ./modules/module-e
+    ports: ["8005:8000"]
+    volumes: ["./weights/module-e:/weights:ro"]
+    env_file: .env
+    networks: [backbone]
+
+  postgres:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: sih
+      POSTGRES_PASSWORD: sih_pass
+      POSTGRES_DB: sih_gis
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    networks: [backbone]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sih"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+networks:
+  backbone:
+
+volumes:
+  pgdata:
