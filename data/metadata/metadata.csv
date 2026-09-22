@@ -1,0 +1,10 @@
+tile_id,source_image,tile_x,tile_y,width,height
+snapshot-2026-09-12_x0_y0,snapshot-2026-09-12.png,0,0,256,256
+snapshot-2026-09-12_x256_y0,snapshot-2026-09-12.png,256,0,256,256
+snapshot-2026-09-12_x512_y0,snapshot-2026-09-12.png,512,0,256,256
+snapshot-2026-09-12_x0_y256,snapshot-2026-09-12.png,0,256,256,256
+snapshot-2026-09-12_x256_y256,snapshot-2026-09-12.png,256,256,256,256
+snapshot-2026-09-12_x512_y256,snapshot-2026-09-12.png,512,256,256,256
+snapshot-2026-09-12_x0_y512,snapshot-2026-09-12.png,0,512,256,256
+snapshot-2026-09-12_x256_y512,snapshot-2026-09-12.png,256,512,256,256
+snapshot-2026-09-12_x512_y512,snapshot-2026-09-12.png,512,512,256,256

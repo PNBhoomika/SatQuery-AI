@@ -1,0 +1,8 @@
+﻿node_modules/
+dist/
+.env
+.antigravity-ide/
+__pycache__/
+*.py[cod]
+data/qdrant_db/
+backend/data/qdrant_db/

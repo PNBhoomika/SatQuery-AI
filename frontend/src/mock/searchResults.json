@@ -1,0 +1,82 @@
+[
+  {
+    "id": "res_001",
+    "title": "Tumakuru Solar & Industrial Corridor",
+    "thumbnail": "/data/demo/imagery/tumakuru_t2.png",
+    "latitude": 13.3408,
+    "longitude": 77.1009,
+    "acquisitionDate": "2026-08-14",
+    "sensor": "Sentinel-2 MSI",
+    "relevanceScore": 94.8,
+    "confidence": 0.92,
+    "category": "Construction / Solar Array",
+    "coordinates": "13.3408\u00b0 N, 77.1009\u00b0 E",
+    "details": "Major land-use conversion with 18.4 hectares of new industrial shed roofing and high-efficiency photovoltaic arrays adjacent to regional transit artery.",
+    "bbox": [
+      77.0809,
+      13.3208,
+      77.1209,
+      13.3608
+    ]
+  },
+  {
+    "id": "res_002",
+    "title": "Krishna River South Inundation Sector",
+    "thumbnail": "/data/demo/imagery/krishna_basin_t2.png",
+    "latitude": 16.2,
+    "longitude": 80.5,
+    "acquisitionDate": "2026-08-02",
+    "sensor": "Sentinel-1 SAR C-Band",
+    "relevanceScore": 89.2,
+    "confidence": 0.95,
+    "category": "Flood Inundation",
+    "coordinates": "16.2000\u00b0 N, 80.5000\u00b0 E",
+    "details": "Co-registered SAR dual-polarization amplitude map showing severe floodplain expansion encroaching on agricultural holdings.",
+    "bbox": [
+      80.48,
+      16.18,
+      80.52,
+      16.22
+    ]
+  },
+  {
+    "id": "res_003",
+    "title": "Western Ghats Corridor Clearing",
+    "thumbnail": "/data/demo/imagery/tumakuru_t1.png",
+    "latitude": 12.9141,
+    "longitude": 75.5,
+    "acquisitionDate": "2026-07-21",
+    "sensor": "Landsat-9 OLI-2",
+    "relevanceScore": 84.5,
+    "confidence": 0.88,
+    "category": "Canopy Disturbance",
+    "coordinates": "12.9141\u00b0 N, 75.5000\u00b0 E",
+    "details": "Linear canopy thinning along highway expansion right-of-way with localized soil exposure.",
+    "bbox": [
+      75.48,
+      12.8941,
+      75.52,
+      12.9341
+    ]
+  },
+  {
+    "id": "res_004",
+    "title": "Ennore Maritime Terminal Extension",
+    "thumbnail": "/data/demo/imagery/tumakuru_t2.png",
+    "latitude": 13.235,
+    "longitude": 80.325,
+    "acquisitionDate": "2026-08-11",
+    "sensor": "Sentinel-2 MSI",
+    "relevanceScore": 81.3,
+    "confidence": 0.89,
+    "category": "Coastal Infrastructure",
+    "coordinates": "13.2350\u00b0 N, 80.3250\u00b0 E",
+    "details": "Reclamation and hard-standing paving for container staging along coastal estuary margin.",
+    "bbox": [
+      80.305,
+      13.215,
+      80.345,
+      13.255
+    ]
+  }
+]
