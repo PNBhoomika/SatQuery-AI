@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://satquery.ai/schemas/feedback.schema.json",
+  "title": "FeedbackPayloadSchema",
+  "description": "Schema for analyst Confirm/Reject feedback submissions consumed by the retraining pipeline.",
+  "type": "object",
+  "required": ["labels"],
+  "properties": {
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "change_event_id",
+          "decision",
+          "analyst_id",
+          "timestamp"
+        ],
+        "properties": {
+          "change_event_id": {
+            "type": "string",
+            "description": "Unique identifier of the change event being confirmed or rejected."
+          },
+          "decision": {
+            "type": "string",
+            "enum": ["confirm", "reject"],
+            "description": "Analyst verdict: 'confirm' indicates true positive, 'reject' indicates false alarm."
+          },
+          "analyst_id": {
+            "type": "string",
+            "description": "Identifier of the reviewing analyst."
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "ISO 8601 timestamp of review action."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Optional notes or rationale provided by the analyst."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

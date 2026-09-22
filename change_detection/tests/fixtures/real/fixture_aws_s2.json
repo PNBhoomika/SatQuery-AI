@@ -1,0 +1,18 @@
+{
+  "id": "S2A_MSIL2A_20230705",
+  "type": "Feature",
+  "properties": {
+    "datetime": "2023-07-05T10:20:30Z",
+    "platform": "sentinel-2a",
+    "constellation": "sentinel-2",
+    "instruments": ["msi"],
+    "view:off_nadir": 3.2,
+    "proj:epsg": 32644
+  },
+  "assets": {
+    "visual": {
+      "href": "x.tif",
+      "eo:platform": "sentinel-2a"
+    }
+  }
+}

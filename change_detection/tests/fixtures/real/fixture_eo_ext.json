@@ -1,0 +1,17 @@
+{
+  "id": "S2B_MSIL2A_20230801",
+  "type": "Feature",
+  "properties": {
+    "datetime": "2023-08-01T10:25:00Z",
+    "eo:platform": "sentinel-2b",
+    "eo:constellation": "sentinel-2",
+    "eo:instrument": "msi",
+    "view:incidence_angle": 32.5,
+    "proj:epsg": 32644
+  },
+  "assets": {
+    "B02": {
+      "href": "b02.tif"
+    }
+  }
+}
